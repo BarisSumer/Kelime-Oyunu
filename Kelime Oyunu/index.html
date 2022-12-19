@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kelime Oyunu</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div id="question">
+            
+        </div>
+        <div id="answer"></div>
+        <div id="input">
+            <input type="text" id="inputText">
+        </div>
+       
+        <div id="buttonDiv">
+            <button onclick="checkWord(),checkTimer()" id="gonder">
+                GÖNDER
+            </button>
+            <button onclick="getRandomLetter()" id="harfAl">
+                HARF AL
+            </button>
+        </div>
+
+        <div class="puanlar">
+            <h4>Question Puan</h4>
+            <div id="questionPuan">0</div>
+            <h4>Total Puan</h4>
+            <div id ="totalPuan">0</div>
+        </div>
+
+        <div class="timer">
+            <h3>Kalan Süre</h3>
+            <div id="time"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js">
+ 
+    </script>
+
+   
+</body>
+</html>

@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-size: 25px;
+
+    background-image: url('KelimeOyunuArkaplan3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1536px 864px;  
+   
+}
+
+div{
+    margin-top: 10px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#buttonDiv button{
+    width: 150px;
+    height: 50px;
+    
+
+    appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+    
+}
+
+#buttonDiv button:hover{
+    background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+#buttonDiv button:active{
+    transform: scale(1.025);
+}
+
+#question{
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 700px;
+    height: 90px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    position: absolute;
+    top: 285px;
+    left: 20px;
+
+    color: red;
+    font-weight: bold;
+    
+    background-color: rgba(0, 0, 0, 0.7); 
+         
+}
+
+
+#answer{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    color: black;
+    font-weight: bold;
+
+      
+}
+
+
+
+#inputText{
+    position: absolute;
+    top: 490px;
+    left: 80px;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+#answer div{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+#harfAl{
+    position: absolute;
+    top: 570px;
+    left: 20px;
+
+}
+
+#gonder{
+    margin-right: 20px;
+    position: absolute;
+    top: 570px;
+    left: 210px;
+    
+}
+
+.puanlar{
+    position: absolute;
+    top: 650px;
+    left: 110px;
+    color: wheat;
+    text-align: center;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+
+.timer{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    color: chartreuse;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
